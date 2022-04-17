@@ -134,6 +134,11 @@ body {
     margin-bottom: 70px;
 }
 
+.project-image-name{
+    text-align: center;
+    font-size: 30px;
+    font-family: montserrat,'open sans',helvetica,arial,sans-serif;
+}
 
 
 /******studio-projects*******************/
@@ -684,8 +689,38 @@ max-width:100%;
     font-family: 'open sans',helvetica,arial,sans-serifserif;
 }
 
-.center{
+.sequence-item{
+    display:flex;
+    justify-content:center;
+    padding: 20px 0;
+}
+.sequence-item-left-h6{
+    font-size:19px;
+    font-weight: bold;
+}
+
+.sequence-item-left{
+    margin:10px;
+    margin-top:60px;
+    text-align: start;
+}
+
+.sequence-item-left-ul{
+    font-size:14px;
     
+}
+
+.sequence-item-right-img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+
+}
+
+.background-grey{
+    background-color: #F1F1F1;
+    margin: 0 0;
+    width: 100%;
 }
 
 
