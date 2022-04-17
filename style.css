@@ -178,6 +178,8 @@ body {
 .projects-h2{
     padding-top:30px;
 }
+
+
 /*****************directions-items*************************/
 .directions{
     background-color:#4A4240;
@@ -507,7 +509,8 @@ max-width:100%;
 .services-h3{
     font-weight: bold;
     text-align: center;
-    font-size:14px;
+    text-transform: uppercase;
+    font-size:30px;
     padding: 10px 0;
     font-family: montserrat,'open sans',helvetica,arial,sans-serif;
     line-height: 1.3;
@@ -672,7 +675,45 @@ max-width:100%;
     padding: 7px 0;
 }
 
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%  page4   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$/
 
+/******************************blogs pag4***************************/
+.directions.page4{
+    background-color:#F1B464;
+}
+
+.directions-h1{
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+
+.direction-img.page4{
+    width: 300px;
+    height:400px;
+    padding:0 20px;
+}
+
+.directions-name.page4{
+    color:black;
+}
+
+/**********************************blogs pag4*******************************/
+.blogs.page4{
+background-color:white;
+}
+
+.blogs-h2.page4{
+    text-transform: uppercase;
+    padding-bottom: 0px;
+}
+
+.yellow-line.page4{
+    margin: 20px auto 40px auto;
+}
 /**********************sequence**************************/
 .sequence-h4{
     text-align:center;
@@ -721,6 +762,56 @@ max-width:100%;
     background-color: #F1F1F1;
     margin: 0 0;
     width: 100%;
+}
+
+/************************particulars*********************/
+.particulars{
+    padding-top: 30px;
+    background-color: #FDD200;
+}
+.particulars-h4{
+    text-align: center;
+    text-transform:uppercase;
+    font-size:30px;
+}
+.yellow-line.particular{
+    background-color: black;
+}
+
+.particular-ul{
+    text-align: center;
+}
+
+.particular-li{
+    padding-bottom:25px;
+}
+
+/*******************************series****************/
+.series-item-name{
+    font-weight: bold;
+}
+
+.series-item{
+    padding-top:40px;
+}
+.series-item-imgs{
+    display:flex;
+    flex-wrap: row;
+    justify-content:space-between;
+}
+
+.series-item-img{
+    max-width: 48%;
+}
+
+.series-item-img3{
+    max-width: 32%;
+    padding-top:20px;
+}
+
+.series-columns{
+    display:flex;
+    padding-top:20px;
 }
 
 
